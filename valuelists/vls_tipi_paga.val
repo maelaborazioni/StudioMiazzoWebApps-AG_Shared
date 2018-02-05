@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"codice",
+dataProviderID2:"descrizione",
+dataSource:"db:/ma_anagrafiche/tab_tipipaga",
+name:"vls_tipi_paga",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"D49A128C-56FF-40A9-AF8B-96CF559F31ED",
+valueListType:1

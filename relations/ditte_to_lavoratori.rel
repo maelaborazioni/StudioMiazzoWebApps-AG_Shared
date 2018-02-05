@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/lavoratori",
+items:[
+{foreignColumnName:"idditta",operator:0,primaryDataProviderID:"idditta",typeid:23,uuid:"7E0F49E3-E3C3-4404-BA3D-0EBC7F2F75C1"}
+],
+joinType:0,
+name:"ditte_to_lavoratori",
+primaryDataSource:"db:/ma_anagrafiche/ditte",
+typeid:22,
+uuid:"C0638A94-7586-4300-BDDA-844D5F4BD2F6"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_statiesteri",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codstato_string",typeid:23,uuid:"6AB9F7F3-07B9-49C7-817C-D7769D40046C"}
+],
+joinType:0,
+name:"persone_titolostudio_to_tab_statiesteri",
+primaryDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+typeid:22,
+uuid:"190A46D7-932B-438C-8DC7-CB27AE1D13F1"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_comuniitalia",
+items:[
+{foreignColumnName:"codcomune",operator:0,primaryDataProviderID:"nascita_codcomune",typeid:23,uuid:"A4115366-8899-423F-BA77-1EC8E0270FC5"}
+],
+joinType:0,
+name:"persone_to_tab_comuniitalia_nascita",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"67B8255B-FAB3-4C49-AA19-0ED09BBEFCA7"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"codice",
+dataProviderID2:"descrizione",
+dataSource:"db:/ma_anagrafiche/tab_tipirapporto",
+name:"vls_tipi_rapporto",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"470B2C76-D691-4D5A-B78B-77A25B3D75AC",
+valueListType:1

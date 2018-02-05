@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+allowParentDeleteWhenHavingRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/tab_comuniitalia",
+items:[
+{foreignColumnName:"codcomune",operator:0,primaryDataProviderID:"nascita_codcomune",typeid:23,uuid:"F5CC6D2F-A437-41B9-96E7-8E9B9D96C4AC"}
+],
+joinType:1,
+name:"lavoratori_personeesterne_to_tab_comuniitalia",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_personeesterne",
+typeid:22,
+uuid:"4A158D65-6766-431D-8C9C-9BD1D1FD7A24"

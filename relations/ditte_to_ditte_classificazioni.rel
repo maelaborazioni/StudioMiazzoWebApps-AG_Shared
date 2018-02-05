@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+items:[
+{foreignColumnName:"idditta",operator:0,primaryDataProviderID:"idditta",typeid:23,uuid:"AE2F5F7F-96AB-4DB8-869A-B671A47BC5BE"}
+],
+joinType:1,
+name:"ditte_to_ditte_classificazioni",
+primaryDataSource:"db:/ma_anagrafiche/ditte",
+typeid:22,
+uuid:"33E11B16-E1FB-41A6-B33B-512B7BD9CE24"

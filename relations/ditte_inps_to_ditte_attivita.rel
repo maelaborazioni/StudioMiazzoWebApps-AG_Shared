@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:false,
+allowParentDeleteWhenHavingRelatedRecords:true,
+deleteRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_attivita",
+items:[
+{foreignColumnName:"idditta",operator:0,primaryDataProviderID:"idditta",typeid:23,uuid:"1F1A6766-0ACC-46FE-82CD-45BC8AA64F65"},
+{foreignColumnName:"nprattivita",operator:0,primaryDataProviderID:"codattivita",typeid:23,uuid:"44CF3E8E-9975-4A52-A875-3729495B1B05"}
+],
+joinType:0,
+name:"ditte_inps_to_ditte_attivita",
+primaryDataSource:"db:/ma_anagrafiche/ditte_inps",
+typeid:22,
+uuid:"965406BD-4FC7-4D13-B880-D1C8F082C15D"

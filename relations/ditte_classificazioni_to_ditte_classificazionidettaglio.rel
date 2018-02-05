@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_classificazionidettaglio",
+items:[
+{foreignColumnName:"iddittaclassificazione",primaryDataProviderID:"iddittaclassificazione",typeid:23,uuid:"537AE8F3-AB10-47F3-8B53-5542A5D60182"}
+],
+name:"ditte_classificazioni_to_ditte_classificazionidettaglio",
+primaryDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+typeid:22,
+uuid:"304CD6C5-9F1A-479E-80B9-6AACB562AF9D"

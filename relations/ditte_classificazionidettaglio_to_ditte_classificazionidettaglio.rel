@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_classificazionidettaglio",
+joinType:0,
+name:"ditte_classificazionidettaglio_to_ditte_classificazionidettaglio",
+primaryDataSource:"db:/ma_anagrafiche/ditte_classificazionidettaglio",
+typeid:22,
+uuid:"75E58744-96C4-4048-BC8A-7E36268595EB"

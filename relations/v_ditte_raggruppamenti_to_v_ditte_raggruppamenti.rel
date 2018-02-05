@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/v_ditte_raggruppamenti",
+joinType:0,
+name:"v_ditte_raggruppamenti_to_v_ditte_raggruppamenti",
+primaryDataSource:"db:/ma_anagrafiche/v_ditte_raggruppamenti",
+typeid:22,
+uuid:"59099B23-0059-4667-812E-AE8337306478"

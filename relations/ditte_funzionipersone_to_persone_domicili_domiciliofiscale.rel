@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/persone_domicili",
+items:[
+{foreignColumnName:"codicefiscale",operator:0,primaryDataProviderID:"codicefiscale",typeid:23,uuid:"06A54D7D-238C-4BB5-A5F0-F81E37513393"},
+{foreignColumnName:"codtipoindirizzo",operator:0,primaryDataProviderID:"globals.codDOMICILIOFISCALE",typeid:23,uuid:"6F490992-E9F6-46B9-8453-43470F1683C2"}
+],
+joinType:0,
+name:"ditte_funzionipersone_to_persone_domicili_domiciliofiscale",
+primaryDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+typeid:22,
+uuid:"852A23ED-ECCE-4ECF-9690-44CD97220BA2"

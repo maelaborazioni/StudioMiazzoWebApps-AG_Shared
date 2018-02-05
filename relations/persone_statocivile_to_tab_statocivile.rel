@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/tab_statocivile",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codstatocivile",typeid:23,uuid:"9A02E8F7-9B96-4445-B3B6-E380EF260D81"}
+],
+joinType:1,
+name:"persone_statocivile_to_tab_statocivile",
+primaryDataSource:"db:/ma_anagrafiche/persone_statocivile",
+typeid:22,
+uuid:"A38C4A2B-DE7D-4F08-8778-F0444535157B"

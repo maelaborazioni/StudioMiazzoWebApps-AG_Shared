@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/persone_cittadinanza",
+items:[
+{foreignColumnName:"codicefiscale",operator:0,primaryDataProviderID:"codicefiscale",typeid:23,uuid:"119BE1B8-A991-4357-9CD1-D5E4DBDB983C"}
+],
+joinType:0,
+name:"persone_to_persone_cittadinanza",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"0499BE86-78F4-44D8-92D5-EB42DE405476"

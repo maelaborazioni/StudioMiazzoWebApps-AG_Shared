@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_tipidocumento",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codtipodocumento",typeid:23,uuid:"2157E670-BB89-4830-AA07-695B0B085850"}
+],
+joinType:0,
+name:"persone_documenti_to_tab_tipidocumento",
+primaryDataSource:"db:/ma_anagrafiche/persone_documenti",
+typeid:22,
+uuid:"0DAC492F-6CCA-47F5-8E67-8FA646B95F28"

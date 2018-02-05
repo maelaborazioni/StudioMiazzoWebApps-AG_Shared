@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_titolistudiospecializzazioni",
+items:[
+{foreignColumnName:"codtitolostudio",operator:0,primaryDataProviderID:"codtitolostudio",typeid:23,uuid:"09AA66F0-AB4A-4052-A948-9405BD1F0A7E"},
+{foreignColumnName:"codtitolostudiospecializzazione",operator:0,primaryDataProviderID:"codtitolostudiospecializzazione",typeid:23,uuid:"531F8F8A-A9C3-4CE4-AFCB-896F98D569E8"},
+{foreignColumnName:"codtitolostudiodettaglio",operator:0,primaryDataProviderID:"codtitolostudiodettaglio",typeid:23,uuid:"95B60E0C-B252-4615-A0E9-BF32E45E411C"}
+],
+joinType:1,
+name:"persone_titolostudio_to_tab_titolistudiospecializzazioni",
+primaryDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+typeid:22,
+uuid:"8F44318C-160A-40C0-A469-248547969720"

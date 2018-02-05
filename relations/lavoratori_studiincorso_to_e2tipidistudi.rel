@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_presenze/e2tipidistudi",
+items:[
+{foreignColumnName:"tipostudiincorso",operator:0,primaryDataProviderID:"codtipostudiincorso",typeid:23,uuid:"A076C6DD-CF5A-48EE-B976-AFAD8DB0EC9E"}
+],
+joinType:0,
+name:"lavoratori_studiincorso_to_e2tipidistudi",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_studiincorso",
+typeid:22,
+uuid:"632DAC8A-CD51-4136-A6CD-44B49E094C4F"

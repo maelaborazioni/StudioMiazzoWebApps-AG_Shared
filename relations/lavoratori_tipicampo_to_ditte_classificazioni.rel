@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+items:[
+{foreignColumnName:"codtipocampo",operator:0,primaryDataProviderID:"codtipocampo",typeid:23,uuid:"DCE6A6EF-3F0A-4683-B60B-36D111B75DC4"}
+],
+joinType:0,
+name:"lavoratori_tipicampo_to_ditte_classificazioni",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_tipicampo",
+typeid:22,
+uuid:"20CFC430-DC4B-4E23-9411-5D81C1F70E07"

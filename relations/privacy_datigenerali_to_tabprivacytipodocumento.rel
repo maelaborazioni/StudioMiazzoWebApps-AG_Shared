@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_hr/tabprivacytipodocumento",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codprivacytipodocumento",typeid:23,uuid:"03D002B7-CE4E-44F7-A029-DB1CB079507C"}
+],
+joinType:0,
+name:"privacy_datigenerali_to_tabprivacytipodocumento",
+primaryDataSource:"db:/ma_hr/privacy_datigenerali",
+typeid:22,
+uuid:"E9411194-526B-4732-A1C4-4C1B1BBB2CC9"

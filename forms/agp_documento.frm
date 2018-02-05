@@ -1,0 +1,15 @@
+dataSource:"db:/ma_anagrafiche/persone_documenti",
+extendsID:"3C076162-6D45-4034-9F27-2ADA00E4841B",
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"61928E67-AAEE-4788-AA72-F14C8DBD67BA"
+}
+],
+name:"agp_documento",
+size:"400,480",
+styleName:"leaf_style",
+typeid:3,
+uuid:"41E15442-E55F-4DE7-AA06-35503E147B04"

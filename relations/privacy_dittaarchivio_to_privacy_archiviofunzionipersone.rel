@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_hr/privacy_archiviofunzionipersone",
+items:[
+{foreignColumnName:"idprivacydittaarchivio",operator:0,primaryDataProviderID:"idprivacydittaarchivio",typeid:23,uuid:"4E175A1A-BFFC-4C29-BA92-ADFAFB8F8941"},
+{foreignColumnName:"idditta",operator:0,primaryDataProviderID:"idditta",typeid:23,uuid:"75860653-E9E5-455F-A1BE-FE278121054F"}
+],
+joinType:0,
+name:"privacy_dittaarchivio_to_privacy_archiviofunzionipersone",
+primaryDataSource:"db:/ma_hr/privacy_dittaarchivio",
+typeid:22,
+uuid:"EFC3E8F5-C734-4D36-9CF3-FDEE03FD0A4D"

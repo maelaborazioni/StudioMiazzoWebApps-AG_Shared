@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+allowParentDeleteWhenHavingRelatedRecords:false,
+foreignDataSource:"db:/ma_presenze/e2tabstatiesteri",
+items:[
+{foreignColumnName:"codirpefstato",operator:0,primaryDataProviderID:"nascita_codstatoestero",typeid:23,uuid:"22CEA8C4-D075-4386-8BEC-CCE55A4D8FFD"}
+],
+joinType:1,
+name:"lavoratori_personeesterne_to_e2tabstatiesteri",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_personeesterne",
+typeid:22,
+uuid:"C17BA679-F0A7-4C07-A5D9-64517D66ECFF"

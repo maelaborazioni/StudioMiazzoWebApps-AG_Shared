@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_hr/privacy_archiviofunzionipersone",
+items:[
+{foreignColumnName:"iddittafunzionepersona",operator:0,primaryDataProviderID:"iddittafunzionepersona",typeid:23,uuid:"35B90591-5780-4BC8-975A-AFA57023457E"}
+],
+joinType:0,
+name:"ditte_funzionipersone_to_privacy_archiviofunzionipersone",
+primaryDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+typeid:22,
+uuid:"AF6CBE11-FDE0-414E-A315-7216FD7DAB27"

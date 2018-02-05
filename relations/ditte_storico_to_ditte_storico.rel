@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_storico",
+joinType:0,
+name:"ditte_storico_to_ditte_storico",
+primaryDataSource:"db:/ma_anagrafiche/ditte_storico",
+typeid:22,
+uuid:"493EDFA7-DE08-46CB-B828-0CC9AF07FFB2"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/tab_categorieprotette",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codcategoriaprotetta",typeid:23,uuid:"5BAAB5FC-F94E-44EE-92EC-450DDC63053A"}
+],
+joinType:1,
+name:"persone_to_tab_categorieprotette",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"F0461AED-12FC-42CC-A9DD-2B9EBBFC9D46"

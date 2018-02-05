@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+joinType:0,
+name:"ditte_classificazioni_to_ditte_classificazioni",
+primaryDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+typeid:22,
+uuid:"B3BEB819-A9CE-45CF-B97B-CC21C414F804"

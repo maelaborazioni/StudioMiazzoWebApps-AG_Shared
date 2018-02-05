@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_funzionipersoneturni",
+items:[
+{foreignColumnName:"iddittafunzionepersona",operator:0,primaryDataProviderID:"iddittafunzionepersona",typeid:23,uuid:"6C8C8D1B-08EF-42E5-B408-23774B281F00"}
+],
+joinType:0,
+name:"ditte_funzionipersone_to_ditte_funzionipersoneturni",
+primaryDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+typeid:22,
+uuid:"E35677E9-FAA2-4B76-8EE4-6435EE885915"

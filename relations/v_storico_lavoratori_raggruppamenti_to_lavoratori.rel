@@ -1,0 +1,10 @@
+allowParentDeleteWhenHavingRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/lavoratori",
+items:[
+{foreignColumnName:"idlavoratore",primaryDataProviderID:"idlavoratore",typeid:23,uuid:"429250E3-5247-483B-A385-2582452E9E1C"}
+],
+joinType:1,
+name:"v_storico_lavoratori_raggruppamenti_to_lavoratori",
+primaryDataSource:"db:/ma_anagrafiche/v_storico_lavoratori_raggruppamenti",
+typeid:22,
+uuid:"33E6C0C0-178A-43A9-9017-B23B240FF2BA"

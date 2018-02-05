@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/tab_statiesteri",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codstatoestero",typeid:23,uuid:"E7D13FF0-FE48-4B22-A9EA-333C72A78793"}
+],
+joinType:1,
+name:"persone_domicili_to_tab_statiesteri",
+primaryDataSource:"db:/ma_anagrafiche/persone_domicili",
+typeid:22,
+uuid:"7D8A2C94-3800-4C0E-ABDA-F66D73A28B3E"

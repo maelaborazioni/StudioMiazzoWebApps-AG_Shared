@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_hr/lavoratori_privacy",
+joinType:0,
+name:"lavoratori_privacy_to_lavoratori_privacy",
+primaryDataSource:"db:/ma_hr/lavoratori_privacy",
+typeid:22,
+uuid:"B058EAF0-582F-4E9F-B495-99F8898FB952"

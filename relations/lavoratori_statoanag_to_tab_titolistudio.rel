@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_titolistudio",
+items:[
+{foreignColumnName:"idtabtitolostudio",operator:0,primaryDataProviderID:"codtitolostudio",typeid:23,uuid:"D622BDF2-942E-4792-95AE-A80CAF661959"}
+],
+joinType:0,
+name:"lavoratori_statoanag_to_tab_titolistudio",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_statoanag",
+typeid:22,
+uuid:"8C3DC25D-18CD-4028-B425-AFA2EEA747E4"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+allowParentDeleteWhenHavingRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_inps",
+items:[
+{foreignColumnName:"idditta",operator:0,primaryDataProviderID:"iddittariferimento",typeid:23,uuid:"0BC429E7-2312-46BC-AE5C-EEB8EADE4481"}
+],
+joinType:1,
+name:"ditte_legami_to_ditte_inps",
+primaryDataSource:"db:/ma_anagrafiche/ditte_legami",
+typeid:22,
+uuid:"D898F1B5-5CBB-484D-BF56-EA6E3310C693"

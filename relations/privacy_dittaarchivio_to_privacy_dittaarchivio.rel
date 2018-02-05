@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_hr/privacy_dittaarchivio",
+joinType:0,
+name:"privacy_dittaarchivio_to_privacy_dittaarchivio",
+primaryDataSource:"db:/ma_hr/privacy_dittaarchivio",
+typeid:22,
+uuid:"60B8F374-E261-4BA1-AF7A-1C4219743D54"

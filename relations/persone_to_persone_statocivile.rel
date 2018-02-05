@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/persone_statocivile",
+items:[
+{foreignColumnName:"codicefiscale",operator:0,primaryDataProviderID:"codicefiscale",typeid:23,uuid:"02202744-1F6F-4A77-BEF0-FB4AC6FB4A75"}
+],
+joinType:0,
+name:"persone_to_persone_statocivile",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"B00A4FA2-14BA-40C9-B855-17DCE439644A"

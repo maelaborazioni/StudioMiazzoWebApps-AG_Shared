@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/v_persone_ultimoindirizzo",
+items:[
+{foreignColumnName:"idpersonadomicilio",operator:0,primaryDataProviderID:"idpersonadomicilio",typeid:23,uuid:"2A103EB9-23C1-466C-BABD-4A1101C9DFE2"}
+],
+joinType:1,
+name:"persone_domicili_to_v_persone_ultimoindirizzo",
+primaryDataSource:"db:/ma_anagrafiche/persone_domicili",
+typeid:22,
+uuid:"255329FD-FB52-444C-9074-BCB7D4265CA9"

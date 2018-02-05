@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:false,
+allowParentDeleteWhenHavingRelatedRecords:true,
+deleteRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_sediinps",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codsedeinps",typeid:23,uuid:"A023CEFC-2F89-4D76-BAAE-473606A9ABA2"}
+],
+joinType:0,
+name:"ditte_inps_to_tab_sediinps",
+primaryDataSource:"db:/ma_anagrafiche/ditte_inps",
+typeid:22,
+uuid:"88713BBA-19B8-4A01-B750-C37E569755FA"

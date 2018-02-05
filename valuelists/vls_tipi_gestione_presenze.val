@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"codice",
+dataProviderID2:"descrizione",
+dataSource:"db:/ma_anagrafiche/tab_tipigestionepresenze",
+name:"vls_tipi_gestione_presenze",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"0901E842-19C9-40EE-B8D1-3D96331068E3",
+valueListType:1

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_tipifunzione",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codtipofunzione",typeid:23,uuid:"3D474B3D-1EA4-432F-906A-83FAA3B0F9BD"},
+{foreignColumnName:"codambito",operator:0,primaryDataProviderID:"codambito",typeid:23,uuid:"8CD3BE72-C24C-47C4-A8C6-7A2B046DB46E"}
+],
+joinType:0,
+name:"ditte_funzionipersone_to_tab_tipifunzione",
+primaryDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+typeid:22,
+uuid:"9BEFD253-C65F-40A8-BE9A-70DE308EA05B"

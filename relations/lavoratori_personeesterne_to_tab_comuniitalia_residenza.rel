@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_comuniitalia",
+items:[
+{foreignColumnName:"codcomune",operator:0,primaryDataProviderID:"codcomune",typeid:23,uuid:"8621CA6C-1EB2-47BE-AF98-BBBCAC0EAAF0"}
+],
+joinType:1,
+name:"lavoratori_personeesterne_to_tab_comuniitalia_residenza",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_personeesterne",
+typeid:22,
+uuid:"F0403E18-869D-49A5-B7A1-9670CC42A224"

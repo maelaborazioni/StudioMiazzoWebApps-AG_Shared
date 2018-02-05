@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_titolistudiodettaglio",
+items:[
+{foreignColumnName:"codtitolostudio",operator:0,primaryDataProviderID:"codtitolostudio",typeid:23,uuid:"1B8C9A0A-6FF6-44B2-A566-640EF018227E"},
+{foreignColumnName:"codtitolostudiodettaglio",operator:0,primaryDataProviderID:"codtitolostudiodettaglio",typeid:23,uuid:"DE4356B6-4078-400A-9C25-7B4177DD03D3"}
+],
+joinType:1,
+name:"persone_titolostudio_to_tab_titolistudiodettaglio",
+primaryDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+typeid:22,
+uuid:"F9D1197E-52F1-45E8-9CCB-8E5EDCAF9A79"

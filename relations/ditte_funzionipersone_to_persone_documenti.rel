@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/persone_documenti",
+items:[
+{foreignColumnName:"codicefiscale",operator:0,primaryDataProviderID:"codicefiscale",typeid:23,uuid:"7F4591DF-69F5-4271-8E35-C94927E687B0"}
+],
+joinType:0,
+name:"ditte_funzionipersone_to_persone_documenti",
+primaryDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+typeid:22,
+uuid:"5BD5B2B9-F36E-4616-9CC1-8B8EC2406942"

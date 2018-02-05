@@ -1,0 +1,11 @@
+allowParentDeleteWhenHavingRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/lavoratori_classificazioni",
+items:[
+{foreignColumnName:"codtipoclassificazione",primaryDataProviderID:"codice",typeid:23,uuid:"9D2F1F05-7F33-4F50-897A-AA9C64C4CAFD"},
+{foreignColumnName:"idditta",primaryDataProviderID:"idditta",typeid:23,uuid:"F59A8C84-1952-46CA-8BFE-F306D0DC72D2"}
+],
+joinType:1,
+name:"v_ditte_raggruppamenti_to_lavoratori_classificazioni",
+primaryDataSource:"db:/ma_anagrafiche/v_ditte_raggruppamenti",
+typeid:22,
+uuid:"3918DE47-B576-42C8-A149-3620EDA2D6ED"

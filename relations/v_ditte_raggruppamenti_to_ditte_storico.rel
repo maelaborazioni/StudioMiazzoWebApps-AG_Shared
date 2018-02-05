@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_storico",
+items:[
+{foreignColumnName:"idditta",operator:0,primaryDataProviderID:"idditta",typeid:23,uuid:"932C25F2-7738-4CF9-9B9C-EB331F60E074"}
+],
+joinType:1,
+name:"v_ditte_raggruppamenti_to_ditte_storico",
+primaryDataSource:"db:/ma_anagrafiche/v_ditte_raggruppamenti",
+typeid:22,
+uuid:"F04F9401-BDBC-4CF0-95EF-6BE42A691C48"

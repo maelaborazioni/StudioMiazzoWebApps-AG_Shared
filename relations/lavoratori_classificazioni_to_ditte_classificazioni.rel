@@ -1,0 +1,8 @@
+foreignDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+items:[
+{foreignColumnName:"idditta",primaryDataProviderID:"idditta",typeid:23,uuid:"6A39E2C2-123F-4A0A-8637-9860F9E34E82"}
+],
+name:"lavoratori_classificazioni_to_ditte_classificazioni",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_classificazioni",
+typeid:22,
+uuid:"11710A17-B3C4-4546-8743-72497391CD23"

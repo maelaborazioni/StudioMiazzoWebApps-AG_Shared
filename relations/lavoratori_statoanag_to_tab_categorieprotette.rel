@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_categorieprotette",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codcategoriaprotetta",typeid:23,uuid:"04F02EAB-B7CD-4DB5-A08A-B3B1FD06345E"}
+],
+joinType:0,
+name:"lavoratori_statoanag_to_tab_categorieprotette",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori_statoanag",
+typeid:22,
+uuid:"B3BBAD40-387E-46A3-8165-BD9673D6555C"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_comuniitalia",
+items:[
+{foreignColumnName:"codcomune",operator:0,primaryDataProviderID:"codcomune",typeid:23,uuid:"39660E69-C763-4EF9-8DFB-06B7188DE459"}
+],
+joinType:0,
+name:"persone_titolostudio_to_tab_comuniitalia",
+primaryDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+typeid:22,
+uuid:"6CE043CD-A1B8-4FCB-99E6-E16E353EDEBB"

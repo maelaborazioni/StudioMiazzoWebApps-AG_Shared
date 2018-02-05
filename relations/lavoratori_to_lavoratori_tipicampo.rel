@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/lavoratori_tipicampo",
+items:[
+{foreignColumnName:"idlavoratore",primaryDataProviderID:"idlavoratore",typeid:23,uuid:"F799626A-4744-45C2-91C4-B24EB8D2F46E"}
+],
+joinType:1,
+name:"lavoratori_to_lavoratori_tipicampo",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori",
+typeid:22,
+uuid:"F9B4E899-F984-4A15-A57A-F015CCA3D6BE"

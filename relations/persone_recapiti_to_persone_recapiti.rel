@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/persone_recapiti",
+joinType:0,
+name:"persone_recapiti_to_persone_recapiti",
+primaryDataSource:"db:/ma_anagrafiche/persone_recapiti",
+typeid:22,
+uuid:"D3227D89-B483-4D2E-B85A-2167A7D34C5F"

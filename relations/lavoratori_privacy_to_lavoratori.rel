@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/lavoratori",
+items:[
+{foreignColumnName:"idlavoratore",operator:0,primaryDataProviderID:"idlavoratore",typeid:23,uuid:"E2F8B187-6D34-4329-A275-DE068B579617"}
+],
+joinType:0,
+name:"lavoratori_privacy_to_lavoratori",
+primaryDataSource:"db:/ma_hr/lavoratori_privacy",
+typeid:22,
+uuid:"B9F78E07-5527-42A7-ADDB-01E3880F52F5"

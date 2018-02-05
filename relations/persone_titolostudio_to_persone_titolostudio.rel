@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+joinType:1,
+name:"persone_titolostudio_to_persone_titolostudio",
+primaryDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+typeid:22,
+uuid:"654BE96B-66FA-4216-8AFB-FFAF0AD6A950"

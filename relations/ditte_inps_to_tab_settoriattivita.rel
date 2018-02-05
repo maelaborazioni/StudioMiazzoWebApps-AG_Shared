@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_settoriattivita",
+items:[
+{foreignColumnName:"codsettore",operator:0,primaryDataProviderID:"codsettore_string",typeid:23,uuid:"907CF814-12A0-457D-82CB-57A8883C5DC0"}
+],
+joinType:0,
+name:"ditte_inps_to_tab_settoriattivita",
+primaryDataSource:"db:/ma_anagrafiche/ditte_inps",
+typeid:22,
+uuid:"7F9CAF0B-CAE6-4B0B-ACFD-5BC388119180"

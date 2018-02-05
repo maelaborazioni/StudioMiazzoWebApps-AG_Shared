@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+deleteRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+items:[
+{foreignColumnName:"iddittafunzionepersona",operator:0,primaryDataProviderID:"coincidecon",typeid:23,uuid:"B8E95604-11E0-493A-94D2-DA5A88C898F8"}
+],
+joinType:0,
+name:"ditte_funzionipersone_to_ditte_funzionipersone_coincidecon",
+primaryDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+typeid:22,
+uuid:"2E594059-60E0-4A75-B1A1-ADC76065190A"

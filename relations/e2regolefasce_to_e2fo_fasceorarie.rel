@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+allowParentDeleteWhenHavingRelatedRecords:false,
+foreignDataSource:"db:/ma_presenze/e2fo_fasceorarie",
+items:[
+{foreignColumnName:"idfasciaoraria",operator:0,primaryDataProviderID:"idfasceorarie",typeid:23,uuid:"57BE3398-08FC-4CB5-AD52-5653254B0357"}
+],
+joinType:1,
+name:"e2regolefasce_to_e2fo_fasceorarie",
+primaryDataSource:"db:/ma_presenze/e2regolefasce",
+typeid:22,
+uuid:"7CED6490-7825-41E1-9FC0-F82E6EAB7F09"

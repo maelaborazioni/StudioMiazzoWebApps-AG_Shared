@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_statiesteri",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codcittadinanza",typeid:23,uuid:"889CA51A-0842-497A-B12B-A16E011B64D5"}
+],
+joinType:0,
+name:"persone_cittadinanza_to_tab_statiesteri",
+primaryDataSource:"db:/ma_anagrafiche/persone_cittadinanza",
+typeid:22,
+uuid:"9A41E190-B92B-4FC7-949E-4925AFA7411F"

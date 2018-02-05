@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_titolistudio",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codtitolostudio",typeid:23,uuid:"A89D3242-4EF3-43A2-AA2F-A084916C2EB8"}
+],
+joinType:1,
+name:"persone_titolostudio_to_tab_titolistudio",
+primaryDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+typeid:22,
+uuid:"E845281B-279B-4A40-8B2B-D09760BE98EF"

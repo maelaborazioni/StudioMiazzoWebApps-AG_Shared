@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/persone_titolostudio",
+items:[
+{foreignColumnName:"codicefiscale",operator:0,primaryDataProviderID:"codicefiscale",typeid:23,uuid:"ADB7307D-35F2-45B0-ADA8-E19EC3248FB4"}
+],
+joinType:0,
+name:"persone_to_persone_titolostudio",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"D4C5BC9F-69F3-4444-BDEE-BD64D5FFAA23"

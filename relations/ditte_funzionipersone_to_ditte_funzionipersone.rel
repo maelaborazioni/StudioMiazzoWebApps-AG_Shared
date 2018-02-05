@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+joinType:0,
+name:"ditte_funzionipersone_to_ditte_funzionipersone",
+primaryDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+typeid:22,
+uuid:"4CD55803-4E55-4AC4-A786-4091E38B5E4D"

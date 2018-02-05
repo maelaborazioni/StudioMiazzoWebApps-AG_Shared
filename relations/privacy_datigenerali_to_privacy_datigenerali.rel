@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_hr/privacy_datigenerali",
+joinType:0,
+name:"privacy_datigenerali_to_privacy_datigenerali",
+primaryDataSource:"db:/ma_hr/privacy_datigenerali",
+typeid:22,
+uuid:"128108D8-F7C6-4054-827F-CCF06C602F00"

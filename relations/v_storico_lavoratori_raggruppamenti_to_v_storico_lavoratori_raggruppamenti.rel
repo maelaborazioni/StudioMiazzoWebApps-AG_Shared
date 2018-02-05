@@ -1,0 +1,7 @@
+allowParentDeleteWhenHavingRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/v_storico_lavoratori_raggruppamenti",
+joinType:1,
+name:"v_storico_lavoratori_raggruppamenti_to_v_storico_lavoratori_raggruppamenti",
+primaryDataSource:"db:/ma_anagrafiche/v_storico_lavoratori_raggruppamenti",
+typeid:22,
+uuid:"7FD43D4C-79D6-40CF-B54C-210445446959"

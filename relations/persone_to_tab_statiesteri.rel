@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_statiesteri",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"nascita_codstatoestero",typeid:23,uuid:"E90677A8-4B27-41E7-A342-E9B8F403B202"}
+],
+joinType:0,
+name:"persone_to_tab_statiesteri",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"BF133B4A-EED2-4A0E-9F25-07C8B2BB7CDB"

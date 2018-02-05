@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/v_persone_ultimoindirizzo",
+items:[
+{foreignColumnName:"codicefiscale",operator:0,primaryDataProviderID:"codicefiscale",typeid:23,uuid:"2BC0D82E-F297-44F0-9FD6-E3DE96892643"}
+],
+joinType:0,
+name:"persone_to_v_persone_ultimoindirizzo",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"D0275311-8D3B-4524-9CD9-6B8E5852D427"

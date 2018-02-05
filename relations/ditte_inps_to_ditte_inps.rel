@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_inps",
+joinType:1,
+name:"ditte_inps_to_ditte_inps",
+primaryDataSource:"db:/ma_anagrafiche/ditte_inps",
+typeid:22,
+uuid:"AA4B91CC-F825-47BB-8772-B43A8821CE07"

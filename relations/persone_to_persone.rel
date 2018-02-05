@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/persone",
+joinType:0,
+name:"persone_to_persone",
+primaryDataSource:"db:/ma_anagrafiche/persone",
+typeid:22,
+uuid:"A611F844-0332-4ADD-8FD3-979D79836F99"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/tab_tipirecapito",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"codtiporecapito",typeid:23,uuid:"038640E5-49F5-466D-9A69-64F058466809"}
+],
+joinType:0,
+name:"persone_recapiti_to_tab_tipirecapito",
+primaryDataSource:"db:/ma_anagrafiche/persone_recapiti",
+typeid:22,
+uuid:"0D2D15A3-4D52-414F-9AAA-3346E4639A5D"

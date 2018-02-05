@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+allowParentDeleteWhenHavingRelatedRecords:false,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_sedi",
+items:[
+{foreignColumnName:"idditta",primaryDataProviderID:"idditta",typeid:23,uuid:"6647A6A9-DE5B-4215-B655-AD52D73BC151"}
+],
+name:"ditte_to_ditte_sedi",
+primaryDataSource:"db:/ma_anagrafiche/ditte",
+typeid:22,
+uuid:"CC393FC5-B5EC-4DA5-9E57-4AB91741B91A"

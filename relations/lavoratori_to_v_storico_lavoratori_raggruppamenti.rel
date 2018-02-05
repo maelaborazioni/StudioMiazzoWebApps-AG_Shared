@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/v_storico_lavoratori_raggruppamenti",
+items:[
+{foreignColumnName:"idlavoratore",operator:0,primaryDataProviderID:"idlavoratore",typeid:23,uuid:"B5D75315-C853-4829-8F6F-E14DFEC9DC5C"}
+],
+joinType:0,
+name:"lavoratori_to_v_storico_lavoratori_raggruppamenti",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori",
+typeid:22,
+uuid:"08CD2E4F-88C8-4ED8-8066-3E8C2E911F83"

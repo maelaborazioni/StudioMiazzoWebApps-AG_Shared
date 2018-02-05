@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/v_storico_lavoratori_raggruppamenti",
+items:[
+{foreignColumnName:"codtipocampo",operator:0,primaryDataProviderID:"codtipocampo",typeid:23,uuid:"B8644B6C-3BBA-4486-975B-1C5784ABEEE7"},
+{foreignColumnName:"idditta",operator:0,primaryDataProviderID:"idditta",typeid:23,uuid:"C7F33797-24C8-4334-962F-636F2BEC977E"}
+],
+joinType:0,
+name:"ditte_classificazioni_to_v_storico_lavoratori_raggruppamenti",
+primaryDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+typeid:22,
+uuid:"A0CF7D2E-BFA3-4979-9C57-3558AE6819C7"

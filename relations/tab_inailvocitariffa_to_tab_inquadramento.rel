@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/tab_inquadramento",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"gest_inq_char",typeid:23,uuid:"392FFC51-EFD6-4FED-8E5F-E634198B1D0F"}
+],
+joinType:1,
+name:"tab_inailvocitariffa_to_tab_inquadramento",
+primaryDataSource:"db:/ma_anagrafiche/tab_inailvocitariffa",
+typeid:22,
+uuid:"F5BF06A1-0525-412B-A4B1-7EACF96CF453"

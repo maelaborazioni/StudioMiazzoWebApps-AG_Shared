@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_funzionipersone",
+items:[
+{foreignColumnName:"codambito",operator:0,primaryDataProviderID:"globals.codPRIVACY",typeid:23,uuid:"0485A393-764B-4FBF-BBA5-7FBC2E4BAD7F"},
+{foreignColumnName:"idlavoratore",operator:0,primaryDataProviderID:"idlavoratore",typeid:23,uuid:"34B052BF-5C8C-4556-BF91-58850E3DC043"}
+],
+joinType:0,
+name:"lavoratori_to_ditte_funzionipersone_privacy",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori",
+typeid:22,
+uuid:"59C2F053-2B5B-462A-B08E-31E29EC00CDE"

@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_anagrafiche/lavoratori",
+joinType:1,
+name:"lavoratori_to_lavoratori",
+primaryDataSource:"db:/ma_anagrafiche/lavoratori",
+typeid:22,
+uuid:"0D950C62-6232-4F29-AF63-C3E9C9314D6C"
