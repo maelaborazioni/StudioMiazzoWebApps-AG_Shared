@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
+items:[
+{foreignColumnName:"idditta",primaryDataProviderID:"iddittariferimento",typeid:23,uuid:"54F8A67E-E069-4BB9-89F4-E334EE146355"}
+],
+name:"ditte_legami_to_ditte_classificazioni",
+primaryDataSource:"db:/ma_anagrafiche/ditte_legami",
+typeid:22,
+uuid:"7A502D80-A9AC-48DE-9950-7C3086EC9AA2"

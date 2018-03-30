@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_anagrafiche/v_ditte_raggruppamenti",
+items:[
+{foreignColumnName:"idditta",primaryDataProviderID:"iddittariferimento",typeid:23,uuid:"398A2084-FE42-4BC3-9B5A-BDC6ED83A53E"}
+],
+name:"ditte_legami_to_v_ditte_raggruppamenti",
+primaryDataSource:"db:/ma_anagrafiche/ditte_legami",
+typeid:22,
+uuid:"3A06DFC9-7D62-4A43-89F6-3F95F8503F24"

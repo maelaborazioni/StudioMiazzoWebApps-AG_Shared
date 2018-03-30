@@ -545,7 +545,7 @@ function getCausaliTimbratureDitta(idDitta)
 		if(fs.search())
 		{
 			// nel caso di ditte interinali la verifica dell'esistenza di causalizzate va fatta sulla ditta madre
-			if(fs.tipologia == 1 && fs.ditte_to_ditte_legami.tipoesterni)
+			if(fs.tipologia == 1 && fs.ditte_to_ditte_legami.tipoesterni == 0)
 			   idDittaCausali = fs.ditte_to_ditte_legami.iddittariferimento;
 			
 			var sqlCausali = "SELECT Causale FROM E2TimbratureServizioGestione WHERE idditta = ?";
