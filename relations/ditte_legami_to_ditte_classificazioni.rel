@@ -1,4 +1,6 @@
 allowCreationRelatedRecords:true,
+allowParentDeleteWhenHavingRelatedRecords:false,
+deleteRelatedRecords:true,
 foreignDataSource:"db:/ma_anagrafiche/ditte_classificazioni",
 items:[
 {foreignColumnName:"idditta",primaryDataProviderID:"iddittariferimento",typeid:23,uuid:"54F8A67E-E069-4BB9-89F4-E334EE146355"}
