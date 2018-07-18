@@ -59,9 +59,9 @@ function FilterLavoratori(ditta, periodo)
  * @param {Number} ditta
  * @param {Date} dal
  * @param {Date} al
- * @param {JSFoundset<db:/ma_anagrafiche/lavoratori>} fs
+ * @param {JSFoundSet<db:/ma_anagrafiche/lavoratori>} fs
  * 
- * @return {JSFoundset<db:/ma_anagrafiche/lavoratori>}
+ * @return {JSFoundSet<db:/ma_anagrafiche/lavoratori>}
  *
  * @properties={typeid:24,uuid:"BABC4F39-D31F-43D6-A00F-083B8C0E1773"}
  * @AllowToRunInFind
