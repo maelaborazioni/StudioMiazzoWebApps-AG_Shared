@@ -167,7 +167,7 @@ var decTurno = 23;
  *
  * @param {JSEvent} event the event that triggered the action
  * @param {String} formToDisplay
- * @param {JSFoundset<db:/ma_anagrafiche/persone_domicili>} domiciliFs
+ * @param {JSFoundSet<db:/ma_anagrafiche/persone_domicili>} domiciliFs
  *
  * @properties={typeid:24,uuid:"716508CC-56D3-4473-B458-73786FBA7896"}
  */
@@ -183,7 +183,7 @@ function apriElencoRecapitiIndirizzo(event, formToDisplay, domiciliFs)
  */
 function apriElencoRecapitiIndirizzoPersona(event)
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/persone_domicili>} */
+	/** @type {JSFoundSet<db:/ma_anagrafiche/persone_domicili>} */
 	var personeDomiciliFs = forms[event.getFormName()].foundset;
 	if(personeDomiciliFs && personeDomiciliFs.persone_domicili_to_persone_recapiti && personeDomiciliFs.persone_domicili_to_persone_recapiti.getSize())
 	{
@@ -208,7 +208,7 @@ function apriElencoRecapitiIndirizzoPersona(event)
  */
 function getNextProgNumber(code,companyId)
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/ditte_funzionipersone>} */
+	/** @type {JSFoundSet<db:/ma_anagrafiche/ditte_funzionipersone>} */
 	var fs = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE ,'ditte_funzionipersone');
 	if(fs && fs.find())
 	{
@@ -232,7 +232,7 @@ function getNextProgNumber(code,companyId)
  */
 function getAmbitoFromCode(code)
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/tab_tipifunzione>} */
+	/** @type {JSFoundSet<db:/ma_anagrafiche/tab_tipifunzione>} */
 	var tipofunzioneFoundset = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE,'tab_tipifunzione')
 	if(tipofunzioneFoundset.find())
 	{
@@ -276,7 +276,7 @@ function getLegaleRappresentante(companyId)
  */
 function getResponsabile(companyId, codambito, code)
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/ditte_funzionipersone>} */
+	/** @type {JSFoundSet<db:/ma_anagrafiche/ditte_funzionipersone>} */
 	var fs = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE, 'ditte_funzionipersone');
 	if(fs && fs.find())
 	{
@@ -487,7 +487,7 @@ function apriDettaglioFunzione(event)
 {
 	var form = null;
 	
-	/** @type {JSFoundset<db:/ma_anagrafiche/ditte_funzionipersone>} */
+	/** @type {JSFoundSet<db:/ma_anagrafiche/ditte_funzionipersone>} */
 	var fs = forms[event.getFormName()].foundset;
 	var detailFs = null;
 	if(fs.idlavoratore)
@@ -515,7 +515,7 @@ function apriDettaglioFunzione(event)
  */
 function getSingolaDitta(tipologiaDitta)
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/ditte>} */
+	/** @type {JSFoundSet<db:/ma_anagrafiche/ditte>} */
 	var fs = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE,globals.Table.DITTE);
 	if(fs.find())
 	{
@@ -537,7 +537,7 @@ function getCausaliTimbratureDitta(idDitta)
 {
 	var idDittaCausali = idDitta;
 	
-	/** @type {JSFoundset<db:/ma_anagrafiche/ditte>}*/
+	/** @type {JSFoundSet<db:/ma_anagrafiche/ditte>}*/
 	var fs = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE,globals.Table.DITTE);
 	if(fs.find())
 	{
