@@ -48,7 +48,7 @@ function dc_save_pre(_foundset)
 //{
 //	if(lavoratori_datianagrafici_to_persone_titolostudio && lavoratori_datianagrafici_to_persone_titolostudio.codcomune)
 //	{
-//		/** @type {JSFoundset<db:/ma_anagrafiche/tab_statiesteri>} */
+//		/** @type {JSFoundSet<db:/ma_anagrafiche/tab_statiesteri>} */
 //		var statiFs = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE, 'tab_statiesteri');
 //		if(statiFs.loadAllRecords() && statiFs.find())
 //		{

@@ -11,7 +11,7 @@ var vLookForDuplicates = false;
  */
 function updateStato(record)
 {
-	/** @type {JSFoundset<db:/ma_anagrafiche/tab_statiesteri>} */
+	/** @type {JSFoundSet<db:/ma_anagrafiche/tab_statiesteri>} */
 	var fs = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE, 'tab_statiesteri');
 	if(fs && fs.find())
 	{
