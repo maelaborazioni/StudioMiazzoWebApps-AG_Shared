@@ -3,7 +3,8 @@
  */
 function getButtonObject()
 {
-	var _enabled = globals.getTipologiaDitta(forms['agl_header_dtl'].idditta) == globals.Tipologia.ESTERNA
+	var _enabled = (forms['agl_header_esterni_dtl'] && forms['agl_header_esterni_dtl'].idditta != null)
+		           || globals.getTipologiaDitta(forms['agl_header_dtl'].idditta) == globals.Tipologia.ESTERNA
 	               || globals.ma_utl_hasKey(globals.Key.GEST_ANAG_DITTA);
 	
 	var btnObj = _super.getButtonObject();

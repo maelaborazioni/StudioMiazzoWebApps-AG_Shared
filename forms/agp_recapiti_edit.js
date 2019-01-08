@@ -10,7 +10,7 @@ function onShowForm(_firstShow, _event)
 	_super.onShowForm(_firstShow, _event);
 	databaseManager.startTransaction();
 	foundset.newRecord();
-	codicefiscale = forms['agl_header_dtl'].codicefiscale;
+	codicefiscale = forms['agl_header_dtl'].codicefiscale || forms['agl_header_esterni_dtl'].lavoratori_to_lavoratori_personeesterne.codicefiscale;
 	nprrecapito = 1;
 	manuale = 1;
 	globals.ma_utl_setStatus(globals.Status.EDIT,controller.getName());
