@@ -153,7 +153,7 @@ var TipiCampo =
 /**
  * @properties={typeid:35,uuid:"309D887E-F966-4234-9C76-46220CC73B4F",variableType:-4}
  */
-var TipoDecorrenza = { BADGE : 2, REGOLA : 3, TURNO : 23, BADGE_OCCASIONALE : 16, BADGE_SOSTITUTIVO : 12};
+var TipoDecorrenza = { BADGE : 2, REGOLA : 3, TURNO : 23, BADGE_OCCASIONALE : 16, BADGE_SOSTITUTIVO : 12, PERC_BANCA_ORE : 13, PERC_RIMPIAZZO : 14};
 
 /**
  * @type {Number}
