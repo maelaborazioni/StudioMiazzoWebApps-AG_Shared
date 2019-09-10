@@ -1,9 +1,7 @@
-allowCreationRelatedRecords:false,
 foreignDataSource:"db:/ma_anagrafiche/tab_statiesteri",
 items:[
-{foreignColumnName:"codicedr",operator:0,primaryDataProviderID:"codcittadinanza",typeid:23,uuid:"ED3A244A-ECB2-4140-AA52-1D0D66A4EE0B"}
+{foreignColumnName:"codice",primaryDataProviderID:"codcittadinanza",typeid:23,uuid:"ED3A244A-ECB2-4140-AA52-1D0D66A4EE0B"}
 ],
-joinType:0,
 name:"lavoratori_statoanag_to_tab_statiesteri",
 primaryDataSource:"db:/ma_anagrafiche/lavoratori_statoanag",
 typeid:22,
