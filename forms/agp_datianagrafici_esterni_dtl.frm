@@ -181,7 +181,8 @@ styleClass:"btn_lookup",
 transparent:true,
 typeid:7,
 uuid:"6C8C4094-A68B-4D90-9495-F81EC9F546DC",
-verticalAlignment:0
+verticalAlignment:0,
+visible:false
 },
 {
 dataProviderID:"nascita_data",
